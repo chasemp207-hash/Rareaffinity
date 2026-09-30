@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 140">
 <style>@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap");</style>
-<text x="8" y="112" font-family="Syne, 'Arial Black', sans-serif" font-weight="800" font-size="112" letter-spacing="-4" textLength="300" lengthAdjust="spacingAndGlyphs" fill="#141312">RARE</text>
-<text x="326" y="112" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="124" fill="#7A1F1F">affinity</text>
+<text x="8" y="112" font-family="Syne, 'Arial Black', sans-serif" font-weight="800" font-size="112" letter-spacing="-4" textLength="300" lengthAdjust="spacingAndGlyphs" fill="#141414">RARE</text>
+<text x="326" y="112" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="124" fill="#6B1526">affinity</text>
 </svg>

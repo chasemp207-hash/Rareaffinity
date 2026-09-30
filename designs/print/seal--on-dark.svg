@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
 <style>@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap");</style>
 <defs><path id="seal-ring" d="M 150 36 A 114 114 0 1 1 149.99 36"/></defs>
-<circle cx="150" cy="150" r="142" fill="none" stroke="#EFEAE0" stroke-width="3"/>
-<circle cx="150" cy="150" r="98" fill="none" stroke="#EFEAE0" stroke-width="1.5"/>
-<text font-family="'IBM Plex Mono', 'Courier New', monospace" font-weight="500" font-size="15" fill="#EFEAE0"><textPath href="#seal-ring" textLength="700" lengthAdjust="spacing">RARE AFFINITY • LIMITED BY NATURE • </textPath></text>
-<text x="134" y="190" text-anchor="middle" font-family="Syne, 'Arial Black', sans-serif" font-weight="800" font-size="118" fill="#EFEAE0">R</text>
-<text x="186" y="196" text-anchor="middle" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="120" fill="#C8553D">a</text>
+<circle cx="150" cy="150" r="142" fill="none" stroke="#F4F2EE" stroke-width="3"/>
+<circle cx="150" cy="150" r="98" fill="none" stroke="#F4F2EE" stroke-width="1.5"/>
+<text font-family="'IBM Plex Mono', 'Courier New', monospace" font-weight="500" font-size="15" fill="#F4F2EE"><textPath href="#seal-ring" textLength="700" lengthAdjust="spacing">RARE AFFINITY • LIMITED BY NATURE • </textPath></text>
+<text x="134" y="190" text-anchor="middle" font-family="Syne, 'Arial Black', sans-serif" font-weight="800" font-size="118" fill="#F4F2EE">R</text>
+<text x="186" y="196" text-anchor="middle" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="120" fill="#A3263D">a</text>
 </svg>

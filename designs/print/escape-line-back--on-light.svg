@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 640">
+<style>@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap");</style><path d="M 160 50 C 156 110 108 170 170 230 C 232 290 384 222 372 320 C 362 400 228 362 248 440 C 260 484 322 486 340 468" fill="none" stroke="#6B1526" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M 160 50 C 156 110 108 170 170 230 C 232 290 384 222 372 320 C 362 400 228 362 248 440 C 260 484 322 486 340 468" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="2 4" stroke-linecap="round"/>
+<text x="300" y="516" text-anchor="middle" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="30" fill="#6B1526">outside the box.</text>
+<text x="300" y="540" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-weight="500" font-size="10" letter-spacing="4" fill="#6B1526">RARE AFFINITY</text>
+</svg>

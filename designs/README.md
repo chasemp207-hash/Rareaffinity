@@ -1,26 +1,27 @@
-# Rare Affinity — Drop 01 designs
+# Rare Affinity — The Collection
 
-Print files live in `print/`. Each graphic comes in two colorways:
-`--on-dark` (bone + ember, for black garments) and `--on-light` (ink + oxblood, for bone/heather garments).
+Palette: **Black** `#141414` · **White** `#F4F2EE` · **Wine** `#6B1526` (on white) / `#A3263D` (on black)
+Type: Syne 800 · Instrument Serif Italic · IBM Plex Mono
 
-| Graphic | Use |
-|---|---|
-| `wordmark` | Left-chest print, neck label, hang tag |
-| `rare-form` | Back print — Rare Form Tee (black) |
-| `one-in-eight-billion` | Back print — One in Eight Billion Tee (bone) |
-| `overlap` | Back print — Overlap Crewneck (heather); also the brand symbol |
-| `seal` | Round monogram — patches, embroidery, stickers |
+| # | Piece | Design | Print file(s) |
+|---|---|---|---|
+| 01 | The Knit — cable knit sweater | Two-ring symbol, tonal embroidery, left chest | `symbol-rings--*.svg` |
+| 02 | The Fitted — fitted tee | Ra monogram embroidered in wine, left chest; wine flag label at hem | `monogram-ra--*.svg` |
+| 03 | Escape Line — boxy tee | A wine chain-stitch line leaves a box, crosses the shoulder, ends on the back: "outside the box." | `escape-line-front--*.svg`, `escape-line-back--*.svg` |
+| 04 | Falling — boxy zip hoodie | A man falling, painted in chalk, reaching for a wine heart | `falling-man-chalk--on-dark.svg` |
 
-## Brand basics
-- **Palette:** Bone `#EFEAE0` · Ink `#141312` · Oxblood `#7A1F1F` · Ember `#C8553D` · Heather `#B9B2A6`
-- **Type:** Syne 800 (headlines) · Instrument Serif Italic (the feeling word, always in the accent color) · IBM Plex Mono (tags and specs, wide tracking)
+Each file comes as `--on-dark` (for black garments) and `--on-light` (for white garments).
+Earlier concept graphics (`wordmark`, `rare-form`, `one-in-eight-billion`, `overlap`, `seal`) are also in `print/`.
 
-## Before sending to a printer
-The SVGs load their fonts from Google Fonts. Printers usually need text converted to outlines:
-open the file in Illustrator, Inkscape or Figma with the three fonts installed, then outline all text
-(Inkscape: *Path → Object to Path*) and export a PDF or SVG at final print size.
+## Before sending to a manufacturer
+- **Embroidery (01, 02, 03):** send the SVG to your embroiderer for digitizing. The escape-line
+  artwork is laid out on a 600×640 garment template, so it shows where the line crosses the shoulder seam.
+- **Chalk print (04):** the chalk texture is an SVG filter. Open the file in a browser or Inkscape,
+  export a 300 dpi PNG at print size (about 12×16 in), and print it with DTG or a high-density screen print.
+- **Text:** fonts load from Google Fonts. Convert text to outlines before sending
+  (Inkscape: *Path → Object to Path*).
 
 ## Editing
-All graphics come from `build.py`. Change colors or copy there, then run:
+Garments and new graphics: `collection.py`. Palette and early concepts: `build.py`. Regenerate everything with:
 
     python3 designs/build.py

@@ -1,7 +1,6 @@
-"""Generate Rare Affinity graphics.
+"""Rare Affinity palette, type and the early-concept graphics.
 
-Writes print-ready SVGs to designs/print/. With --canvas DIR it also writes
-the design-canvas artboards (garment mockups) into DIR/project/.
+The collection garments live in collection.py. Run either file:
 
     python3 designs/build.py [--canvas DIR]
 """
@@ -11,12 +10,12 @@ import sys
 from datetime import datetime, timezone
 
 # ---------------------------------------------------------------- palette
-BONE = "#EFEAE0"
-INK = "#141312"
-OXBLOOD = "#7A1F1F"   # accent on light garments
-EMBER = "#C8553D"     # accent on dark garments
-STONE = "#5E584F"     # secondary text on bone (7:1 on BONE)
-HEATHER = "#B9B2A6"   # heather-grey garment
+BONE = "#F4F2EE"      # white
+INK = "#141414"       # black
+OXBLOOD = "#6B1526"   # wine red, on white
+EMBER = "#A3263D"     # wine red, brightened for black garments
+STONE = "#5A5754"     # secondary text on white
+HEATHER = "#DAD6CF"   # light grey garment (early concepts only)
 
 ON_DARK = dict(fg=BONE, accent=EMBER, bg=INK)
 ON_LIGHT = dict(fg=INK, accent=OXBLOOD, bg=BONE)
@@ -204,8 +203,8 @@ def garment_board(title, number, shape, garment, colors, graphic, uid, meta):
 
 
 def main_board():
-    swatches = [("Bone", BONE, INK), ("Ink", INK, BONE), ("Oxblood", OXBLOOD, BONE),
-                ("Ember", EMBER, INK), ("Heather", HEATHER, INK)]
+    swatches = [("Black", INK, BONE), ("White", BONE, INK), ("Wine", OXBLOOD, BONE),
+                ("Wine on black", EMBER, BONE)]
     sw = "".join(
         f'<div style="display: flex; flex-direction: column; gap: 8px">'
         f'<div style="height: 96px; background: {c}; border: 1px solid #14131226; border-radius: 4px; display: flex; align-items: flex-end; padding: 10px; box-sizing: border-box; color: {t}; font-size: 12px">{c}</div>'
@@ -236,7 +235,7 @@ def main_board():
 </div>
 <div style="display: flex; flex-direction: column; gap: 16px">
 <div style="font-size: 12px; letter-spacing: 3px; color: {STONE}">PALETTE</div>
-<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 24px">{sw}</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px">{sw}</div>
 </div>
 </div>"""
     return page("Rare Affinity brand sheet", 1280, 900, body)
@@ -320,7 +319,6 @@ def write_canvas(root):
 
 
 if __name__ == "__main__":
-    here = pathlib.Path(__file__).resolve().parent
-    write_print_files(here / "print")
-    if "--canvas" in sys.argv:
-        write_canvas(pathlib.Path(sys.argv[sys.argv.index("--canvas") + 1]))
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import collection
+    collection.main()
