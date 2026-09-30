@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap");</style>
+<defs><clipPath id="overlap-clip"><circle cx="155" cy="200" r="110"/></clipPath></defs>
+<text x="200" y="52" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="12" letter-spacing="5" fill="#141312">WHERE WE OVERLAP</text>
+<circle cx="245" cy="200" r="110" fill="#7A1F1F" clip-path="url(#overlap-clip)"/>
+<circle cx="155" cy="200" r="110" fill="none" stroke="#141312" stroke-width="3"/>
+<circle cx="245" cy="200" r="110" fill="none" stroke="#141312" stroke-width="3"/>
+<text x="98" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-weight="500" font-size="13" letter-spacing="3" fill="#141312">RARE</text>
+<text x="302" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-weight="500" font-size="13" letter-spacing="3" fill="#141312">AFFINITY</text>
+<text x="200" y="216" text-anchor="middle" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="44" fill="#EFEAE0">us</text>
+<text x="200" y="372" text-anchor="middle" font-family="Syne, 'Arial Black', sans-serif" font-weight="800" font-size="30" textLength="250" lengthAdjust="spacingAndGlyphs" fill="#141312">RARE AFFINITY</text>
+</svg>
