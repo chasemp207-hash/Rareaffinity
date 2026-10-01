@@ -31,3 +31,8 @@ Ten directions for the R + upside-down A mark live in `logos/` (01–10). Every 
 outlined path taken from open-source typefaces (Bodoni Moda, Syne, Instrument Serif, Jost), so the
 files print without fonts. Regenerate with `pip install fonttools` then `python3 designs/logos.py`
 (the fonts download once into `designs/.fonts/`).
+
+## Symbols — no letters
+Ten wordless marks in `symbols/` (01–10), the way a polo player stands for Polo:
+Black Swan, Swan Pair, Four Hearts, Eclipse, Red Thread, The Key, Swallows, The Stone, Linked, The Pearl.
+Regenerate with `python3 designs/symbols.py`.
