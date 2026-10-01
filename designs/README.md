@@ -25,3 +25,9 @@ Earlier concept graphics (`wordmark`, `rare-form`, `one-in-eight-billion`, `over
 Garments and new graphics: `collection.py`. Palette and early concepts: `build.py`. Regenerate everything with:
 
     python3 designs/build.py
+
+## Logos — R∀
+Ten directions for the R + upside-down A mark live in `logos/` (01–10). Every letter is an
+outlined path taken from open-source typefaces (Bodoni Moda, Syne, Instrument Serif, Jost), so the
+files print without fonts. Regenerate with `pip install fonttools` then `python3 designs/logos.py`
+(the fonts download once into `designs/.fonts/`).
