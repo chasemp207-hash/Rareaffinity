@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40">
+<style>@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap");</style>
+<defs><clipPath id="symbol-rings-c"><circle cx="24" cy="20" r="14"/></clipPath></defs>
+<circle cx="36" cy="20" r="14" fill="#6B1526" clip-path="url(#symbol-rings-c)"/>
+<circle cx="24" cy="20" r="14" fill="none" stroke="#6B1526" stroke-width="2.6"/>
+<circle cx="36" cy="20" r="14" fill="none" stroke="#6B1526" stroke-width="2.6"/>
+</svg>

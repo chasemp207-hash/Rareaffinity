@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
+<style>@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap");</style>
+<text x="20" y="40" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="12" letter-spacing="3" fill="#141414">FILE 08 / RARE AFFINITY</text>
+<text x="10" y="250" font-family="Syne, 'Arial Black', sans-serif" font-weight="800" font-size="250" fill="#141414">1</text>
+<text x="176" y="250" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="110" fill="#6B1526">in</text>
+<text x="20" y="306" font-family="Syne, 'Arial Black', sans-serif" font-weight="800" font-size="46" textLength="360" lengthAdjust="spacingAndGlyphs" fill="#141414">8,000,000,000</text>
+<line x1="20" y1="340" x2="380" y2="340" stroke="#141414" stroke-width="1"/>
+<text x="20" y="360" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="13" letter-spacing="2" fill="#141414">SUBJECT</text>
+<text x="380" y="360" text-anchor="end" font-family="'IBM Plex Mono', 'Courier New', monospace" font-weight="500" font-size="13" letter-spacing="2" fill="#141414">YOU</text>
+<line x1="20" y1="370" x2="380" y2="370" stroke="#141414" stroke-width="1"/>
+<text x="20" y="390" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="13" letter-spacing="2" fill="#141414">RARITY</text>
+<text x="380" y="390" text-anchor="end" font-family="'IBM Plex Mono', 'Courier New', monospace" font-weight="500" font-size="13" letter-spacing="2" fill="#141414">UNREPEATABLE</text>
+<line x1="20" y1="400" x2="380" y2="400" stroke="#141414" stroke-width="1"/>
+<text x="20" y="420" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="13" letter-spacing="2" fill="#141414">AFFINITY</text>
+<text x="380" y="420" text-anchor="end" font-family="'IBM Plex Mono', 'Courier New', monospace" font-weight="500" font-size="13" letter-spacing="2" fill="#141414">BY CHOICE</text>
+<line x1="20" y1="430" x2="380" y2="430" stroke="#141414" stroke-width="1"/>
+<text x="200" y="464" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="11" letter-spacing="5" fill="#141414">THERE IS ONLY ONE</text>
+</svg>
