@@ -36,3 +36,8 @@ files print without fonts. Regenerate with `pip install fonttools` then `python3
 Ten wordless marks in `symbols/` (01–10), the way a polo player stands for Polo:
 Black Swan, Swan Pair, Four Hearts, Eclipse, Red Thread, The Key, Swallows, The Stone, Linked, The Pearl.
 Regenerate with `python3 designs/symbols.py`.
+
+## Refined — swan, diamond clover, swallow
+Three takes on each shortlisted symbol in `refined/`: swan (line, origami, necks),
+diamond clover (diamond leaves, cut stones, badge) and swallow (solo, pair, badge).
+Regenerate with `python3 designs/refined.py`.
